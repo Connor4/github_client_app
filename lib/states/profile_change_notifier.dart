@@ -38,7 +38,7 @@ class ThemeModel extends ProfileChangeNotifier {
   }
 }
 
-class LocalModel extends ProfileChangeNotifier {
+class LocaleModel extends ProfileChangeNotifier {
   // 获取当前用户的app语言配置locale类，如果为null跟随系统语言
   Locale? getLocale() {
     if (_profile.locale == null) return null;
